@@ -17,7 +17,7 @@ class AndroidDriver(object):
                              'deviceName': "8GP4C18705002188",  # 设备的uuid
                              'appPackage': "io.manong.developerdaily",  # app的包名
                              'appActivity': "io.toutiao.android.ui.activity.LaunchActivity",  # 测试appActivity
-                             'noReset': True}  # 控制启动app时，是否初始化设置
+                             'noReset': False}  # 控制启动app时，是否初始化设置
         self.log = log.Log()
 
     def driver(self):
